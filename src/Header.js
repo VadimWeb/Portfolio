@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import style from './Header.module.css'
 
 function Header() {
     return (
-        <div className="App">
+        <div className={style.header}>
         </div>
     );
 }
